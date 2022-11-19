@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="css/trade.css">
+  <title>Home || Timz</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Timz</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link active__link">
+              <span class="material-symbols-outlined nav-icon">paid</span>
+              <span class="nav__name">Home</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <span class="material-symbols-outlined nav-icon">paid</span>
+              <span class="nav__name">Wallet</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <span class="material-symbols-outlined nav-icon">paid</span>
+              <span class="nav__name">Transaction</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <span class="material-symbols-outlined nav-icon">paid</span>
+              <span class="nav__name">Profile</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="trade">
+      <ul class="trade-description">
+        <li>1. Please enter the right country and amout in the input below</li>
+        <li>2. If it was only e-code, you can upload one image</li>
+        <li>3. We accept all the countrie’s gift card</li>
+      </ul>
+    </div>
+
+    <h1 class="trade-heading">SELL GIFT CARD</h1>
+
+    <div class="trade-form">
+      <form action="#" method="post">
+        <div class="trade-input-details">
+          <div>
+            <input type="text" placeholder="Enter your gift card name">
+          </div>
+  
+          <div>
+            <input type="text" placeholder="Enter you gift card currency or country">
+          </div>
+  
+          <div>
+            <input type="text" placeholder="Enter amount">
+          </div>
+        </div>
+
+        <div class="input-upload">
+          <label for="inputTag">
+            Select image <br>
+            <span class="material-symbols-outlined photo-icon">photo_camera</span>
+            <input class="image-input" id="inputTag" type="file" accept="image/*" multiple="multiple">
+            <br>
+            <span id="imageName"></span>
+          </label>
+        </div>
+
+        <div class="text">
+          <textarea class="text-area" name="" id="" cols="40" rows="9" placeholder="You can input the code of your cards if it’s e-code or if the gift card picture was not clear"></textarea>
+        </div>
+
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
